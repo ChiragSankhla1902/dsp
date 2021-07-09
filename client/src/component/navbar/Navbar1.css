@@ -1,0 +1,26 @@
+.NavLink{
+    font-size: large;
+}
+.down{
+    margin-bottom: 80px;
+}
+
+a{
+    color: lightgrey;
+    margin-right: 20px;
+
+}
+
+a:hover{
+    color:ghostwhite;
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+
+}
+.log{
+    color:ghostwhite;
+}
+
+a.active{
+    color: rgb(255, 255, 255);
+}

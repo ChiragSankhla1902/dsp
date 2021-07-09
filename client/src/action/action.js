@@ -19,24 +19,24 @@ export const sendetails=(blog)=>async(dispatch)=>{
     }
 };
 
-export const updatedetails=(id,upblog)=>async(dispatch)=>{
-    try {
-        const {data}=await api.update_Details(id,upblog);
-        dispatch({type:'UPDATE',payload:data})
-    } catch (error) {
+// export const updatedetails=(id,upblog)=>async(dispatch)=>{
+//     try {
+//         const {data}=await api.update_Details(id,upblog);
+//         dispatch({type:'UPDATE',payload:data})
+//     } catch (error) {
 
-        console.log(error)
-    }
-};
+//         console.log(error)
+//     }
+// };
 
-export const deletedetails=(id)=>async(dispatch)=>{
-    try {
-        const{data}=await api.delete_Details(id)
-        dispatch({type:'DELETE',payload:data})
-    } catch (error) {
-        console.log(error)
+// export const deletedetails=(id)=>async(dispatch)=>{
+//     try {
+//         const{data}=await api.delete_Details(id)
+//         dispatch({type:'DELETE',payload:data})
+//     } catch (error) {
+//         console.log(error)
         
-    }
-};
+//     }
+// };
 
 

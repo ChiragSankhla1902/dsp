@@ -1,17 +1,9 @@
 import mongoose from "mongoose";
 
 const todoschema=mongoose.Schema({
-    name: String,
-    priority: String,
-    duedate: Date,
-    status:{
-        type:String,
-        default:"Todo"
-    },
-    createdAt: {
-        type: Date,
-        default: new Date(),
-    },
+    first_name: String,
+    last_name: String,
+    email:String,
 });
 const Todo=mongoose.model("test",todoschema)
 

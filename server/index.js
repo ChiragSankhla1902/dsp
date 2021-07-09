@@ -11,7 +11,7 @@ app.use(bodyparser.urlencoded({limit:"30mb",extended:true}));
 app.use(cors());
 app.use('/todo',route);
 
-const Url='mongodb+srv://usser3:goodtogo@cluster0.rsqjz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const Url='mongodb+srv://DSP_user:DSP_user@cluster0.m3q9j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT= process.env.PORT || 8000;
 
 mongoose.connect(Url,{useNewUrlParser:true,useUnifiedTopology:true})
