@@ -1,8 +1,8 @@
 import axios from "axios";
 
 
-const url= 'http://localhost:8000/todo';
-const url1= 'http://localhost:8000/todo/create';
+const url= 'https://projectofdsp.herokuapp.com/todo';
+const url1= 'https://projectofdsp.herokuapp.com/todo/create';
 
 export const get_Details=()=>axios.get(url);
 export const send_Details =(blogcontent)=>axios.post(url1,blogcontent);
